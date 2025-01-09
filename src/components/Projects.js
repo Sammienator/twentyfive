@@ -1,25 +1,28 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import brenty from "../assets/brenty.png";
+import manukatoprime from "../assets/manukatoprime.png";
+import elite from "../assets/elite.png";
 
 const projects = [
   {
     title: "Project 1",
     description: "A React project showcasing dynamic UI.",
-    image: "/assets/project1.jpg",
-    link: "#",
+    image: brenty,
+    link: "https://brenty.vercel.app/",
   },
   {
     title: "Project 2",
     description: "A responsive website built with Tailwind CSS.",
-    image: "/assets/project2.jpg",
-    link: "#",
+    image: manukatoprime,
+    link: "https://manukaato.netlify.app/",
   },
   {
     title: "Project 3",
     description: "An e-commerce app with integrated APIs.",
-    image: "/assets/project3.jpg",
-    link: "#",
+    image: elite,
+    link: "https://eliteconstruction.netlify.app/",
   },
 ];
 
