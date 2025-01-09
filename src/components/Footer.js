@@ -16,6 +16,7 @@ const Footer = () => {
         {/* Quick Links Section */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
+          <p>
           <ul className="space-y-2">
             <li>
               <a
@@ -42,6 +43,9 @@ const Footer = () => {
               </a>
             </li>
           </ul>
+
+          </p>
+          
         </div>
 
         {/* Contact Info Section */}
@@ -54,12 +58,12 @@ const Footer = () => {
                 href="mailto:youremail@example.com"
                 className="hover:text-blue-500 transition-colors"
               >
-                youremail@example.com
+                sammienatorinc@gmail.com
               </a>
             </li>
             <li className="flex items-center space-x-2">
               <FaPhone />
-              <span>+123 456 7890</span>
+              <span>+254112 318696</span>
             </li>
           </ul>
         </div>
@@ -97,7 +101,7 @@ const Footer = () => {
               <FaLinkedin size={24} />
             </a>
           </div>
-          <p className="text-sm">© 2024 Your Name. All rights reserved.</p>
+          <p className="text-sm">© 2024 SammienatorInc. All rights reserved.</p>
         </div>
       </div>
     </footer>
