@@ -7,20 +7,20 @@ import elite from "../assets/elite.png";
 
 const projects = [
   {
-    title: "Project 1",
-    description: "A React project showcasing dynamic UI.",
+    title: "Brenty",
+    description: "Ecommerce, Sales, Product Purchase",
     image: brenty,
     link: "https://brenty.vercel.app/",
   },
   {
-    title: "Project 2",
-    description: "A responsive website built with Tailwind CSS.",
+    title: "Luxury Scents",
+    description: "Perfume, Elegance, Showcase",
     image: manukatoprime,
     link: "https://manukaato.netlify.app/",
   },
   {
-    title: "Project 3",
-    description: "An e-commerce app with integrated APIs.",
+    title: "Elite",
+    description: "Construction, Home, RealEstate",
     image: elite,
     link: "https://eliteconstruction.netlify.app/",
   },
@@ -36,7 +36,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-16 bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">My Projects</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center animate-bounce">My Projects</h2>
         <Carousel responsive={responsive} infinite autoPlay autoPlaySpeed={3000}>
           {projects.map((project, index) => (
             <div key={index} className="p-4" data-aos="fade-up">

@@ -18,7 +18,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <FaUser size={40} className="text-black mb-4" />
-            <h3 className="text-2xl font-bold mb-2">About Me</h3>
+            <h3 className="text-2xl font-bold mb-2 animate-bounce">About Me</h3>
             <p>
               I am a passionate frontend developer who enjoys creating
               responsive and visually stunning web applications. My goal is to

@@ -50,7 +50,7 @@ const Contact = () => {
           onSubmit={handleSubmit(onSubmit)}
           className="bg-white dark:bg-gray-700 p-8 rounded-lg  text-center shadow-lg space-y-6"
         >
-          <h2 className="text-3xl font-bold text-center mb-4">Contact Us</h2>
+          <h2 className="text-3xl font-bold text-center mb-4 animate-bounce">Contact Us</h2>
 
           {/* Name Field */}
           <div>

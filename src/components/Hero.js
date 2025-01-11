@@ -2,19 +2,20 @@ import React from "react";
 import BackgroundSlider from "react-background-slider";
 import { TypeAnimation } from "react-type-animation";
 import pic1 from '../assets/pic1.jpg';
+import bestest2 from '../assets/bestest2.jpg';
 
 
-<BackgroundSlider images={[pic1, pic1, pic1]} />
+<BackgroundSlider images={[pic1, pic1, bestest2]} />
 
 
 const Hero = () => {
   return (
     <section id="hero" className="h-screen relative flex flex-col items-center justify-center text-center text-black">
-      <BackgroundSlider images={[pic1, pic1, pic1]} duration={5} transition={1} />
+      <BackgroundSlider images={[pic1, pic1, bestest2]} duration={5} transition={1} />
 
 
       <div className="z-10">
-        <h1 className="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
+        <h1 className="text-5xl font-bold mb-4 animate-bounce">Welcome to My Portfolio</h1>
         <TypeAnimation
           sequence={["Frontend Developer", 2000, "ReactJS Enthusiast", 2000, "Just A Chill Guy", 2000]}
           speed={45}
