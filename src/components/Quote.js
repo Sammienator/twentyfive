@@ -36,7 +36,7 @@ const Quote = () => {
   return (
     <section
       id="quote"
-      className="py-16 bg-gray-50 bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+      className="py-16  bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100"
     >
       <h2 className="text-4xl font-bold mb-6 text-center animate-bounce">Get a Quote <FaRocket className="inline text-blue-500 ml-2" /></h2>
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
@@ -51,7 +51,7 @@ const Quote = () => {
         <div className="w-full lg:w-1/2 p-8 text-center rounded-lg shadow-lg transition-all duration-500 hover:shadow-xl min-h-[400px] lg:h-full">
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 text-black h-full">
             <div className="text-center">
-              <label htmlFor="email" className="block mb-2 font-semibold flex items-center justify-center">
+              <label htmlFor="email" className=" mb-2 font-semibold flex items-center justify-center">
                 <FaEnvelope className="mr-2 text-blue-500" /> Your Email
               </label>
               <input
@@ -63,7 +63,7 @@ const Quote = () => {
               {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
             </div>
             <div className="text-center">
-              <label htmlFor="projectName" className="block mb-2 font-semibold flex items-center justify-center">
+              <label htmlFor="projectName" className=" mb-2 font-semibold flex items-center justify-center">
                 <FaRocket className="mr-2 text-blue-500" /> Project Name
               </label>
               <input
@@ -77,7 +77,7 @@ const Quote = () => {
               )}
             </div>
             <div className="text-center">
-              <label htmlFor="budget" className="block mb-2 font-semibold flex items-center justify-center">
+              <label htmlFor="budget" className=" mb-2 font-semibold flex items-center justify-center">
                 <FaMoneyBillAlt className="mr-2 text-blue-500" /> Estimated Budget
               </label>
               <select
@@ -95,7 +95,7 @@ const Quote = () => {
             <div className="text-center">
               <label
                 htmlFor="functionality"
-                className="block mb-2 font-semibold flex items-center justify-center"
+                className=" mb-2 font-semibold flex items-center justify-center"
               >
                 <FaLightbulb className="mr-2 text-blue-500" /> Important Functionality You Want
               </label>

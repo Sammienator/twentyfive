@@ -8,7 +8,7 @@ const About = () => {
       className="py-16 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-extrabold text-center mb-12">
+        <h2 className="text-4xl font-extrabold text-center mb-12 animate-bounce">
           About Me
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -18,7 +18,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <FaUser size={40} className="text-black mb-4" />
-            <h3 className="text-2xl font-bold mb-2 animate-bounce">About Me</h3>
+            <h3 className="text-2xl font-bold mb-2 ">About Me</h3>
             <p>
               I am a passionate frontend developer who enjoys creating
               responsive and visually stunning web applications. My goal is to
